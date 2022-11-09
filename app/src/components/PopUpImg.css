@@ -1,0 +1,23 @@
+.popup-post {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-bg {
+    background-color: rgba(128, 128, 128, 0.57);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.popup-align{
+    text-align: center;
+}

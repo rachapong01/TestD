@@ -1,0 +1,15 @@
+.image-item{
+    display: block;
+    /* width: auto; */
+    }
+    
+    
+    .class-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .item-align{
+        text-align: center;
+    }

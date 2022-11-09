@@ -8,7 +8,7 @@ wsl --install
 หลังจากนั้นติดตั้ง Ubuntu 20.04 LTS 
 
 กำหนดชื่อผู้ใช้และรหัสผ่าน
-กลังจากนั้นพิมพ์คำสั่ง
+หลังจากนั้นพิมพ์คำสั่ง
 
 ```bash
 sudo apt update
@@ -28,16 +28,20 @@ node -v
 cd document
 mkdir TestProject
 cd TestProject
-mkdir testD
-cd testd
+mkdir initiation
+cd initiation
 mkdir ninjafood
 cd ninjafood
 code .
 ```
-เปิดTerminal
+สร้างโปรเจค เปิดTerminal
 พิมพ์คำสั่ง 
 ```bash
-npm init -y
+npx create-react-app [ชื่อโปรเจค]
+
+cd app
+
+npx start
 ```
 ติดตั้งtailwindCSS
 พิมพ์คำสั่ง 
